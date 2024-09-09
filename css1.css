@@ -1,0 +1,54 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1,h2 {
+    font-family: "Manrope", sans-serif;
+    color: black;
+    left: 0px;
+}
+
+h4 {
+    background-color: #e46c6c;
+}
+
+h4:hover {
+    background-color: #ddb420;
+}
+
+header {
+    background-image: linear-gradient(rgba(201, 44, 177, 0.2), rgba(31, 211, 235, 0.2));
+}
+
+ul {
+    display: flex;
+    justify-content:space-evenly;
+    list-style-type: none;
+}
+
+li a {
+    animation-duration: 3s;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid white;
+}
+
+li a:hover  {
+    border-bottom: 1px solid black;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    height: 300px;
+    width: 60%;
+}
+.mini-box {
+    height: 400px;
+    width: 550px;
+    background-color: rgb(196, 209, 60);
+}
